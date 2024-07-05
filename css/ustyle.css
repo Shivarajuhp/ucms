@@ -355,3 +355,38 @@ a.nav-link {
     padding-left: 0px !important;
   }
 }
+@media (max-width: 575.98px) {
+  .revolution .rev-txt {
+    padding-left: 0 !important;
+  }
+  .revolution h2 {
+    padding-left: 0;
+    text-align: left;
+    font-size: x-large;
+    margin: 20px 0 10px 0;
+  }
+  .feature-txt ul li {
+    padding-left: 0;
+    text-align: left;
+  }
+  .features ul {
+    justify-content: flex-end;
+  }
+  .abt-txt {
+    padding: 0 !important;
+  }
+  .u-logos ul li {
+    margin: 6px;
+    padding: 10px;
+    width: 70px;
+  }
+  section.revolution {
+    margin: 80px 0 0px 0;
+  }
+  .pr-logo {
+    text-align: center;
+  }
+  .pr-logo1 {
+    width: 50%;
+  }
+}
