@@ -88,7 +88,7 @@
   --second-bg-color: #045d95;
   --text-color: #fff;
   --main-color: #0ef;
-  --yellow-color: #fec913;
+  --yellow-color: #fea004;
 }
 
 .bg-blue {
@@ -111,8 +111,11 @@ img {
   margin: 0;
 }
 .pr-logo img {
-  width: 65%;
+  width: 100%;
   margin-top: 15px;
+}
+.pr-logo2 img {
+  width: 50%;
 }
 .login-btn .btn {
   border-color: var(--yellow-color);
@@ -125,16 +128,16 @@ img {
 }
 .btn-primary:hover {
   color: #045d95;
-  background-color: #fec913;
-  border-color: #fec913;
+  background-color: #fea004;
+  border-color: #fea004;
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fec913;
+  color: #fea004;
 }
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fec913;
+  color: #fea004;
 }
 .navbar-nav .nav-link {
   font-weight: 500;
@@ -259,7 +262,7 @@ nav.navbar {
 }
 .count-area i {
   font-size: 40px;
-  color: #fec913;
+  color: #fea004;
 }
 .count-digit {
   margin: 20px 0px;
@@ -270,11 +273,11 @@ nav.navbar {
 }
 .count-title {
   font-size: 20px;
-  color: #fec913;
+  color: #fea004;
 }
 span.disclaimer,
 span.toll {
-  color: #fec913;
+  color: #fea004;
 }
 section#con p.ftp {
   margin: 0;
@@ -353,6 +356,13 @@ a.nav-link {
   }
   .rev-txt {
     padding-left: 0px !important;
+  }
+  a.nav-link {
+    font-size: 22px;
+  }
+  .abt-txt p,
+  .feature-txt ul li {
+    font-size: 20px;
   }
 }
 @media (max-width: 575.98px) {
