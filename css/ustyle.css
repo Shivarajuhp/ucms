@@ -110,12 +110,15 @@ img {
 .row {
   margin: 0;
 }
+.pr-logo1 {
+  text-align: right;
+}
 .pr-logo img {
   width: 96%;
   margin-top: 15px;
 }
 .pr-logo2 {
-  text-align: center;
+  text-align: right;
 }
 .pr-logo2 img {
   width: 50%;
